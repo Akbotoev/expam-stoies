@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+   margin: 20px;
+   img{
+    object-fit: cover;
+   }
+    &__title{
+     margin-left: 50px;
+     margin-top: 25px;
+    }
+ }
